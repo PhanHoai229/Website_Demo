@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://kit.fontawesome.com/your-kit-id.js" crossorigin="anonymous"></script>
+    <script src="include.js"></script>
+    <title>Website Demo</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <div data-include="/partials/header.html"></div>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="bg-gray-100 pt-2 px-12 grid grid-cols-12 items-center">
+            <div class="col-span-12 md:col-span-6">
+                <p class="text-blue-900 font-semibold text-xl uppercase">Best Marketing Service</p>
+                <h1 class="text-7xl font-bold text-gray-800 mt-2 mb-4">Make The Easiest Solution For You</h1>
+                <p class="text-gray-500 mb-12 text-lg">Energistically harness ubiquitous imperatives without state of the art
+                    collaboration and idea-sharing. Monotonectally parallel task cross-unit experiences and front-end.
+                </p>
+                <div class="grid grid-cols-12 gap-4">
+                    <div class="col-span-6">
+                        <button
+                            class="bg-blue-900 text-white px-6 py-4 rounded hover:bg-blue-700 uppercase font-medium flex items-center">
+                            About Us
+                            <i class="fa-solid fa-arrow-right ml-2"></i>
+                        </button>
+                    </div>
+                    <div class="col-span-6">
+                        <button class="flex items-center">
+                            <i
+                                class="fa-solid fa-play mr-4 rounded-full bg-blue-900 w-14 h-14 shadow-md flex items-center justify-center text-white text-lg"></i>
+                            <div class="flex flex-col">
+                                <p class="text-black-100 hover:text-blue-900 font-medium text-lg">Watch Our Story</p>
+                                <p class="text-gray-500 font-medium text-lg">Subscribe Now</p>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-span-12 md:col-span-6 md:mt-0 mt-6">
+                <img src="./img/OIP.jpg" alt="Hero Image" class="w-full">
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="py-16 pr-12 grid grid-cols-12 items-center">
+            <div class="col-span-12 md:col-span-6 e-con-inner mr-0 md:mr-10 relative">
+                <img src="./img/business-meeting.png" alt="About Image" class="w-full rounded-lg">
+                <i
+                    class="fa-solid fa-play mr-2 rounded-full bg-white w-14 h-14 shadow-md z-10 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex items-center justify-center text-blue-900 text-lg"></i>
+            </div>
+            <div class="col-span-12 md:col-span-6 mt-6 md:mt-0 md:ml-6">
+                <div class="ekit-wid-con">
+                    <div class="ekit-heading">
+                        <span class="ekit-heading-text font-extrabold uppercase">
+                            About US
+                        </span>
+                        <h2 class="ekit-heading-title text-blue-900 font-bold uppercase flex items-center ml-4">
+                            <i class="fa-solid fa-seedling mr-2"></i>About WEBTECK IT SOLUTIONS
+                        </h2>
+                    </div>
+                </div>
+                <h2 class="text-4xl font-bold text-gray-800 mb-4">We Are Increasing Business <br> Success With <span
+                        class="text-blue-900">Technology</span></h2>
+                <p class="text-gray-500 mb-4 text-lg">Synergistically incentivize effective imperatives through fully researched
+                    intellectual capital. Appropriately fashion client-based.</p>
+                <div class="award-section">
+                    <div class="header-tabs">
+                        <div class="tab active">AWARD WINNING</div>
+                        <div class="tab">TECHNOLOGY INDEX</div>
+                    </div>
+                    <div class="content-wrapper">
+                        <div class="image-container">
+                            <img src="./img/success.jpeg" alt="Award Winner" />
+                        </div>
+                        <div class="text-content">
+                            <h2>An Award-Winning Company.</h2>
+                            <p>Monotonically matrix extensible applications and go forward communities. Synergistically
+                                extend client-based manufactured.</p>
+                            <button class="about-btn">ABOUT MORE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="grid grid-cols-12 pt-20 px-12 bg-cover bg-center bg-no-repeat h-[500px]"
+            style="background-image: url(./img/technology-backgorund.jpg);">
+            <div class="col-span-12">
+                <div class="ekit-wid-con">
+                    <div class="ekit-heading mr-10">
+                        <span class="ekit-heading-text font-extrabold uppercase">Service</span>
+                        <h2 class="ekit-heading-title text-blue-900 font-bold uppercase flex items-center ml-4">
+                            <i class="fa-solid fa-seedling mr-2"></i>WHAT WE DO
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-span-12">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <h2 class="text-[38px] font-bold text-white mb-4">We Provide Exclusive Service <br> For <span
+                            class="text-blue-900">Your Business</span></h2>
+                    <button
+                        class="bg-blue-900 text-white font-medium py-2 px-3 h-14 w-auto rounded hover:bg-white uppercase flex items-center">
+                        VIEW ALL SERVICES
+                        <i class="fa-solid fa-arrow-right ml-2"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="col-span-12 mt-20">
+                <div class="grid grid-cols-1 md:grid-cols-12 gap-6">
+                    <!-- Ô 1: UI/UX Design -->
+                    <div
+                        class="md:col-span-3 bg-white p-6 rounded-lg text-center shadow-md relative flex flex-col h-full">
+                        <div class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                            <div class="bg-gray-300 rounded-full w-16 h-16 flex items-center justify-center">
+                                <i class="fa-solid fa-pen-ruler text-blue-900 text-2xl"></i>
+                            </div>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-4 text-blue-900 mt-6">UI/UX Design</h3>
+                        <p class="text-gray-500 mb-4 flex-grow text-lg">Continually engage customized infomediaries and quality
+                            growth strategies. Appropriately.</p>
+                        <a href="#"
+                            class="bg-blue-900 text-white font-medium text-sm py-2 rounded hover:bg-[#0f2050] uppercase inline-flex items-center justify-center w-1/2 mx-auto mt-auto">
+                            Read More
+                            <i class="fa-solid fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+
+                    <!-- Ô 2: Digital Marketing -->
+                    <div
+                        class="md:col-span-3 bg-white p-6 rounded-lg text-center shadow-md relative flex flex-col h-full">
+                        <div class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                            <div class="bg-gray-300 rounded-full w-16 h-16 flex items-center justify-center">
+                                <i class="fa-solid fa-bullhorn text-blue-900 text-2xl"></i>
+                            </div>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-4 text-blue-900 mt-6">Digital Marketing</h3>
+                        <p class="text-gray-500 mb-4 flex-grow text-lg">Continually engage customized infomediaries and quality
+                            growth strategies. Appropriately.</p>
+                        <a href="#"
+                            class="bg-blue-900 text-white font-medium text-sm py-2 rounded hover:bg-[#0f2050] uppercase inline-flex items-center justify-center w-1/2 mx-auto mt-auto">
+                            Read More
+                            <i class="fa-solid fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+
+                    <!-- Ô 3: Business Analysis -->
+                    <div
+                        class="md:col-span-3 bg-white p-6 rounded-lg text-center shadow-md relative flex flex-col h-full">
+                        <div class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                            <div class="bg-gray-300 rounded-full w-16 h-16 flex items-center justify-center">
+                                <i class="fa-solid fa-chart-line text-blue-900 text-2xl"></i>
+                            </div>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-4 text-blue-900 mt-6">Business Analysis</h3>
+                        <p class="text-gray-500 mb-4 flex-grow text-lg">Continually engage customized infomediaries and quality
+                            growth strategies. Appropriately.</p>
+                        <a href="#"
+                            class="bg-blue-900 text-white font-medium text-sm py-2 rounded hover:bg-[#0f2050] uppercase inline-flex items-center justify-center w-1/2 mx-auto mt-auto">
+                            Read More
+                            <i class="fa-solid fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+
+                    <!-- Ô 4: Software Services -->
+                    <div
+                        class="md:col-span-3 bg-white p-6 rounded-lg text-center shadow-md relative flex flex-col h-full">
+                        <div class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                            <div class="bg-gray-300 rounded-full w-16 h-16 flex items-center justify-center">
+                                <i class="fa-solid fa-code text-blue-900 text-2xl"></i>
+                            </div>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-4 text-blue-900 mt-6">Software Services</h3>
+                        <p class="text-gray-500 mb-4 flex-grow text-lg">Continually engage customized infomediaries and quality
+                            growth strategies. Appropriately.</p>
+                        <a href="#"
+                            class="bg-blue-900 text-white font-medium text-sm py-2 rounded hover:bg-[#0f2050] uppercase inline-flex items-center justify-center w-1/2 mx-auto mt-auto">
+                            Read More
+                            <i class="fa-solid fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+
+        <section class="pt-20 px-6 grid grid-cols-12 items-center h-[750px]"
+            style="background-image: url(./img/white-flat-background.jpg);">
+            <div class="col-span-12 md:col-span-6 mt-6 md:mt-0 md:ml-6">
+                <div class="ekit-wid-con">
+                    <div class="ekit-heading">
+                        <span class="ekit-heading-text font-extrabold uppercase">Choose US</span>
+                        <h2 class="ekit-heading-title text-blue-900 font-bold uppercase flex items-center ml-4">
+                            <i class="fa-solid fa-seedling mr-2"></i>WHY CHOOSE US
+                        </h2>
+                    </div>
+                </div>
+                <h2 class="text-4xl font-bold text-gray-800 mb-4">More Than 24+ Years Experience<br> We Provide <span
+                        class="text-blue-900">IT Services</span></h2>
+                <p class="text-gray-500 mb-4 text-lg">Collaboratively envisioneer user friendly supply chains and cross unit
+                    imperative. Authoritativel fabricate competitive resource and holistic. Holisticly restore real time
+                    resources whereas standardized networks.</p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="flex flex-row items-center">
+                        <div class="progress-circle">
+                            <svg class="progress-ring" width="120" height="120">
+                                <circle class="progress-ring__circle-bg" cx="60" cy="60" r="50" stroke="#e5e7eb"
+                                    stroke-width="6" fill="transparent" />
+                                <circle class="progress-ring__circle" cx="60" cy="60" r="50" stroke="#8b5cf6"
+                                    stroke-width="6" fill="transparent" stroke-dasharray="314"
+                                    stroke-dashoffset="31.4" />
+                            </svg>
+                            <div class="progress-text font-bold text-2xl">90%</div>
+                        </div>
+                        <div class="flex flex-col ml-4 mt-8">
+                            <h2 class="text-xl font-bold">Business Grow</h2>
+                            <p class="text-gray-500 text-base">Efficiently transition top-line ideas before market.</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-row items-center">
+                        <div class="progress-circle">
+                            <svg class="progress-ring" width="120" height="120">
+                                <circle class="progress-ring__circle-bg" cx="60" cy="60" r="50" stroke="#e5e7eb"
+                                    stroke-width="6" fill="transparent" />
+                                <circle class="progress-ring__circle" cx="60" cy="60" r="50" stroke="#8b5cf6"
+                                    stroke-width="6" fill="transparent" stroke-dasharray="314"
+                                    stroke-dashoffset="31.4" />
+                            </svg>
+                            <div class="progress-text font-bold text-2xl">90%</div>
+                        </div>
+                        <div class="flex flex-col ml-4 mt-8">
+                            <h2 class="text-xl font-bold">Quality Products</h2>
+                            <p class="text-gray-500 text-base">Efficiently transition top-line ideas before market.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-8">
+                    <a href="#"
+                        class="bg-blue-900 text-white font-medium text-sm py-2 rounded hover:bg-[#0f2050] uppercase inline-flex items-center justify-center w-[23.5%] h-[55px] mx-auto">
+                        Learn More
+                        <i class="fa-solid fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-span-12 md:col-span-6 e-con-inner relative flex items-center justify-center">
+                <div
+                    class="elementor-widget-container absolute top-0 left-[55%] -translate-x-1/2 bg-blue-900 text-white rounded-full w-[138px] h-[135px] flex justify-center items-center text-center">
+                    <div class="ekit-headings text-center mb-4">
+                        <h2 class="ekit-section-title text-4xl font-bold m-0">10k+</h2>
+                        <h3 class="ekit-section-subtitle font-medium">Clients Active</h3>
+                    </div>
+                </div>
+                <img decoding="async" width="620" height="565"
+                    src="https://bluemoontech.co.uk/wp-content/uploads/2024/09/woman.png"
+                    class="attachment-full size-full wp-image-309" alt=""
+                    srcset="https://bluemoontech.co.uk/wp-content/uploads/2024/09/woman.png 620w, https://bluemoontech.co.uk/wp-content/uploads/2024/09/woman-300x273.png 300w"
+                    sizes="(max-width: 620px) 100vw, 620px">
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="py-16 px-6 grid grid-cols-12">
+            <div class="col-span-12 flex align-items-center justify-center mb-2">
+                <div class="ekit-wid-con">
+                    <div class="ekit-heading">
+                        <span class="ekit-heading-text font-extrabold uppercase">
+                            PROJECTS
+                        </span>
+                        <h2 class="ekit-heading-title text-blue-900 font-bold uppercase flex items-center ml-4">
+                            <i class="fa-solid fa-seedling mr-2"></i>LATEST PROJECTS
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <h2 class="col-span-12 text-4xl font-bold text-center text-gray-800 mb-8">Our Recent Latest <span
+                    class="text-blue-900">Projects</span></h2>
+            <div class="col-span-12 grid grid-cols-1 md:grid-cols-12 gap-6 mx-6 h-[480px]">
+                <div class="md:col-span-4 bg-white shadow-md rounded-lg">
+                    <img src="./img/project1.png" alt="Project 1"
+                        class="w-full h-42 object-cover rounded-tl-lg rounded-tr-lg mb-4">
+                    <div class="px-10 py-2">
+                        <h3 class="text-2xl font-bold mb-4">Web Development</h3>
+                        <p class="text-gray-400 text-lg">Distinctively enable premium expertise for multifunctional action
+                            items.
+                            Energistically benchmark worldwide communities.</p>
+                    </div>
+                </div>
+                <div class="md:col-span-4 bg-white shadow-md rounded-lg">
+                    <img src="./img/project2.png" alt="Project 2"
+                        class="w-full h-42 object-cover rounded-tl-lg rounded-tr-lg mb-4">
+                    <div class="px-10 py-2">
+                        <h3 class="text-2xl font-bold mb-4">Website Desgin</h3>
+                        <p class="text-gray-400 text-lg">Distinctively enable premium expertise for multifunctional action
+                            items.
+                            Energistically benchmark worldwide communities.</p>
+                    </div>
+                </div>
+                <div class="md:col-span-4 bg-white shadow-md rounded-lg">
+                    <img src="./img/project3.png" alt="Project 3"
+                        class="w-full h-42 object-cover rounded-tl-lg rounded-tr-lg mb-4">
+                    <div class="px-10 py-2">
+                        <h3 class="text-2xl font-bold mb-4">It Consultency</h3>
+                        <p class="text-gray-400 text-lg">Distinctively enable premium expertise for multifunctional action
+                            items.
+                            Energistically benchmark worldwide communities.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Counter -->
+        <!-- <section class="bg-blue-600 text-white py-16 px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6 text-center">
+                <div>
+                    <h3 class="text-4xl font-bold">896+</h3>
+                    <p>Finished Projects</p>
+                </div>
+                <div>
+                    <h3 class="text-4xl font-bold">896+</h3>
+                    <p>Happy Clients</p>
+                </div>
+                <div>
+                    <h3 class="text-4xl font-bold">396+</h3>
+                    <p>Skilled Experts</p>
+                </div>
+                <div>
+                    <h3 class="text-4xl font-bold">496+</h3>
+                    <p>Honorable Awards</p>
+                </div>
+            </div>
+        </section> -->
+
+        <!-- Process Section -->
+        <!-- <section class="py-16 px-6">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">How To Work It!</h2>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6 text-center">
+                <div>
+                    <h3 class="text-2xl font-bold text-blue-600">01</h3>
+                    <p class="text-gray-600">Select a project</p>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-bold text-blue-600">02</h3>
+                    <p class="text-gray-600">Plan & analysis</p>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-bold text-blue-600">03</h3>
+                    <p class="text-gray-600">Plan execute</p>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-bold text-blue-600">04</h3>
+                    <p class="text-gray-600">Deliver result</p>
+                </div>
+            </div>
+        </section> -->
+
+        <!-- Clients Section -->
+        <!-- <section class="bg-gray-900 text-white py-16 px-6">
+            <h2 class="text-3xl font-bold text-center mb-8">Our Trusted Clients</h2>
+            <div class="flex justify-center space-x-6">
+                <img src="client1.png" alt="Client 1" class="h-12">
+                <img src="client2.png" alt="Client 2" class="h-12">
+                <img src="client3.png" alt="Client 3" class="h-12">
+                <img src="client4.png" alt="Client 4" class="h-12">
+            </div>
+        </section> -->
+
+        <!-- Team Section -->
+        <section class="py-16 px-6" style="background-image: url(./img/flat-background.png); background-color: #F0F4FF">
+            <div class="col-span-12 mb-2">
+                <div class="ekit-wid-con">
+                    <div class="ekit-heading">
+                        <span class="ekit-heading-text font-extrabold uppercase">
+                            Team
+                        </span>
+                        <h2 class="ekit-heading-title text-blue-900 font-bold uppercase flex items-center ml-4">
+                            <i class="fa-solid fa-seedling mr-2"></i>GREAT TEAM
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <h2 class="col-span-12 text-4xl font-bold text-gray-800 mb-8">See Our Skilled Expert <span
+                    class="text-blue-900">Team</span></h2>
+            <div class="grid grid-cols-12 gap-6 px-6">
+                <div class="col-span-12 md:col-span-4 text-center bg-white shadow-md p-6 rounded-lg">
+                    <img src="./img/pic1.jpg" alt="Team 1" class="w-full h-[340px] rounded-lg mx-auto mb-4">
+                    <h3 class="text-xl font-semibold">Amber Robert</h3>
+                    <p class="profile-designation text-blue-900 text-sm">Founder</p>
+                </div>
+                <div class="col-span-12 md:col-span-4 text-center bg-white shadow-md p-6 rounded-lg">
+                    <img src="./img/pic2.jpg" alt="Team 1" class="w-full h-[340px] rounded-lg mx-auto mb-4">
+                    <h3 class="text-xl font-semibold">Linda Ava</h3>
+                    <p class="profile-designation text-blue-900 text-sm">CEO</p>
+                </div>
+                <div class="col-span-12 md:col-span-4 text-center bg-white shadow-md p-6 rounded-lg">
+                    <img src="./img/pic3.jpg" alt="Team 1" class="w-full h-[340px] rounded-lg mx-auto mb-4">
+                    <h3 class="text-xl font-semibold">Amelia Clara</h3>
+                    <p class="profile-designation text-blue-900 text-sm">Project Manager</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="bg-gray-900 text-white py-16 px-6 mb-60 bg-cover h-[450px]"
+            style="background-image: url(./img/background.jpg);">
+            <div class="col-span-12 flex align-items-center justify-center mb-2">
+                <div class="ekit-wid-con">
+                    <div class="ekit-heading">
+                        <span class="ekit-heading-text font-extrabold uppercase">
+                            TESTIMONIALS
+                        </span>
+                        <h2 class="ekit-heading-title text-blue-900 font-bold uppercase flex items-center ml-4">
+                            <i class="fa-solid fa-seedling mr-2"></i>CUSTOMER FEEDBACK
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <h2 class="col-span-12 text-4xl font-bold text-center text-white mb-8">What Happy Clients Says <br> <span
+                    class="text-blue-900">About Us?</span></h2>
+            <div class="grid grid-cols-12 gap-6 px-6">
+                <div class="col-span-12 md:col-span-4 bg-white p-6 shadow-md rounded-lg">
+                    <img src="./img/pic4.jpg" alt="" class="w-[120px] h-[120px] rounded-full mx-auto mb-4">
+                    <p class="text-gray-400 mb-4 text-lg">Objectively visualize error-free technology for B2B
+                        alignment. Monotonectally harness an expanded array of models via effective collaboration.
+                        Globally synergize resource sucking value via cutting-edge.</p>
+                    <div class="flex flex-col">
+                        <strong class="text-xl text-black font-bold mb-1">Jackline Techie</strong>
+                        <span class="text-sm text-gray-400">CEO at Kormola</span>
+                    </div>
+                </div>
+                <div class="col-span-12 md:col-span-4 bg-white p-6 shadow-md rounded-lg">
+                    <img src="./img/pic5.jpg" alt="" class="w-[120px] h-[120px] rounded-full mx-auto mb-4">
+                    <p class="text-gray-400 mb-4 text-lg">Objectively visualize error-free technology for B2B alignment.
+                        Monotonectally harness an expanded array of models via effective collaboration. Globally
+                        synergize resource sucking value via cutting-edge.</p>
+                    <div class="flex flex-col">
+                        <strong class="text-xl text-black font-bold">Md Sumon Mia</strong>
+                        <span class="text-sm text-gray-400">CEO at Rimasu</span>
+                    </div>
+                </div>
+                <div class="col-span-12 md:col-span-4 bg-white p-6 shadow-md rounded-lg">
+                    <img src="./img/pic6.jpg" alt="" class="w-[120px] h-[120px] rounded-full mx-auto mb-4">
+                    <p class="text-gray-400 mb-4 text-lg">Objectively visualize error-free technology for B2B alignment.
+                        Monotonectally harness an expanded array of models via effective collaboration. Globally
+                        synergize resource sucking value via cutting-edge.</p>
+                    <div class="flex flex-col">
+                        <strong class="text-xl text-black font-bold">Abraham Khalil</strong>
+                        <span class="text-sm text-gray-400">CEO at Antora</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="pb-16 px-12 grid grid-cols-12 gap-6">
+            <div class="col-span-12 bg-[#f9f9f9] rounded-lg" style="background-image: url(./img/flat-background.png);">
+                <div class="grid grid-cols-12 gap-6">
+                    <div class="col-span-12 md:col-span-6">
+                        <img src="./img/contact.png" alt="Contact Image" class="w-[82%] h-[380px] rounded-l-lg">
+                    </div>
+                    <div class="col-span-12 md:col-span-6 md:mt-0">
+                        <div class="ekit-wid-con mt-20">
+                            <div class="ekit-heading">
+                                <span class="ekit-heading-text font-extrabold uppercase">
+                                    CONSULTATION
+                                </span>
+                                <h2 class="ekit-heading-title text-blue-900 font-bold uppercase flex items-center ml-4">
+                                    <i class="fa-solid fa-seedling mr-2"></i>LET’S CONSULTATION
+                                </h2>
+                            </div>
+                        </div>
+                        <h2 class="col-span-12 text-4xl font-bold text-gray-800 mb-8">Let's Talk About Business <br>
+                            Solutions <span class="text-blue-900">With Us</span></h2>
+                        <a href="./contact.html"
+                            class="bg-blue-900 text-white font-medium text-sm py-2 rounded hover:bg-[#0f2050] uppercase inline-flex items-center justify-center w-[23.5%] h-[55px] mx-auto">
+                            Contact Us
+                            <i class="fa-solid fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Section -->
+        <!-- <section class="py-16 px-6">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">Get Every Single Update Blog</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-white shadow-md p-6 rounded-lg">
+                    <img src="blog1.png" alt="Blog 1" class="w-full h-40 object-cover rounded-lg mb-4">
+                    <h3 class="text-xl font-semibold">Latin from Cicero's</h3>
+                    <p class="text-gray-600">First-century BC progressive quality metrics.</p>
+                </div>
+                <div class="bg-white shadow-md p-6 rounded-lg">
+                    <img src="blog2.png" alt="Blog 2" class="w-full h-40 object-cover rounded-lg mb-4">
+                    <h3 class="text-xl font-semibold">Unstable entropies may collect</h3>
+                    <p class="text-gray-600">Progressive quality metrics for success.</p>
+                </div>
+                <div class="bg-white shadow-md p-6 rounded-lg">
+                    <img src="blog3.png" alt="Blog 3" class="w-full h-40 object-cover rounded-lg mb-4">
+                    <h3 class="text-xl font-semibold">Regional Manager Limited</h3>
+                    <p class="text-gray-600">Progressive quality metrics for success.</p>
+                </div>
+            </div>
+        </section> -->
+    </main>
+
+    <!-- Footer -->
+    <div data-include="/partials/footer.html"></div>
+</body>
+
+</html>
