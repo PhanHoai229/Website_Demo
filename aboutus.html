@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="include.js"></script>
+    <title>About Us Website Demo</title>
+</head>
+
+<body>
+    <div data-include="/partials/header.html"></div>
+    <main>
+        <!-- Section ảnh nền với tiêu đề -->
+        <section
+            class="relative bg-[url(./img/bg-aboutus.jpg)] bg-[#141D38] bg-center bg-no-repeat bg-cover h-96 flex items-center justify-center text-white col-span-12">
+            <div class="absolute inset-0 bg-black opacity-50"></div>
+            <div class="relative z-10 text-center px-4 col-span-12">
+                <h2 class="text-4xl md:text-5xl font-bold mb-4">About Us</h2>
+                <p class="text-lg md:text-xl">Expert team with the experience to accelerate your business growth</p>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section class="bg-white col-span-12 p-6">
+            <div class="flex flex-col grid grid-cols-12 md:flex-row items-center justify-center gap-6">
+                <div class="col-span-12 md:col-span-6 relative text-center">
+                    <img src="./img/ab1.png" alt="Team" class="rounded-lg mx-auto mb-4">
+                    <div
+                        class="elementor-widget-container absolute bottom-[12%] right-[-4%] -translate-x-1/2 bg-blue-900 text-white rounded-full w-[170px] h-[165px] flex justify-center items-center text-center">
+                        <div class="ekit-headings text-center mb-4">
+                            <h2 class="ekit-section-title text-6xl font-bold m-0">25</h2>
+                            <h3 class="ekit-section-subtitle text-lg font-medium">Years Experience</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-span-12 md:col-span-6">
+                    <h2 class="ekit-heading-title text-blue-900 font-bold uppercase flex items-center ml-4">
+                        <i class="fa-solid fa-seedling mr-2"></i>About us!
+                    </h2>
+                    <h2 class="text-4xl font-bold text-gray-800 mb-4">We Are Increasing Business <br> Success With <span
+                            class="text-blue-900">IT Solution</span></h2>
+                    <p class="text-gray-600 text-lg">Collaboratively envisioneer user friendly supply chains and cross
+                        unit
+                        imperative. Authoritativel fabricate competitive resource and holistic synergy. Uniquely
+                        generate efficient schemas before future.</p>
+                    <div class="grid grid-cols-12 gap-4 mt-6">
+                        <div class="col-span-6">
+                            <button class="flex text-left items-center">
+                                <i
+                                    class="fa-solid fa-award mr-4 rounded-full bg-blue-900 w-14 h-14 shadow-md flex items-center justify-center text-white text-lg"></i>
+                                <div class="flex flex-col">
+                                    <p class="text-black-100 hover:text-blue-900 font-bold text-xl">Certified Company
+                                    </p>
+                                    <p class="text-gray-500 font-medium text-lg">Best Provide Skills Services</p>
+                                </div>
+                            </button>
+                        </div>
+                        <div class="col-span-6">
+                            <button class="flex text-left items-center">
+                                <i
+                                    class="fa-solid fa-user mr-4 rounded-full bg-blue-900 w-14 h-14 shadow-md flex items-center justify-center text-white text-lg"></i>
+                                <div class="flex flex-col">
+                                    <p class="text-black-100 hover:text-blue-900 font-bold text-xl">Expart Team
+                                    </p>
+                                    <p class="text-gray-500 font-medium text-lg">100% Expert Team</p>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                    <span class="block w-[97%] my-6 border-b border-gray-200"></span>
+                    <div class="grid grid-cols-12 gap-4">
+                        <div class="col-span-4">
+                            <button
+                                class="bg-blue-900 text-white px-6 py-4 rounded hover:bg-blue-700 uppercase font-medium flex items-center">
+                                Discover More
+                                <i class="fa-solid fa-arrow-right ml-2"></i>
+                            </button>
+                        </div>
+                        <div class="col-span-8">
+                            <button class="flex text-left items-center">
+                                <i
+                                    class="fa-solid fa-phone mr-2 rounded-full bg-blue-900 w-14 h-14 shadow-md flex items-center justify-center text-white text-lg"></i>
+                                <div class="flex flex-col">
+                                    <p class="text-gray-500 hover:text-blue-900 font-medium text-base">Call Us On:
+                                    </p>
+                                    <p class="text-black-100 font-bold text-base">+190-8800-0393</p>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Team Member Section -->
+        <section class="py-16 px-6 bg-[url(./img/bg-ab.jpg)] bg-no-repeat bg-right bg-cover">
+            <div class="col-span-12 mb-2 flex align-items-center justify-center">
+                <div class="ekit-wid-con">
+                    <div class="ekit-heading">
+                        <span class="ekit-heading-text font-extrabold uppercase">
+                            Team
+                        </span>
+                        <h2 class="ekit-heading-title text-blue-900 font-bold uppercase flex items-center ml-4">
+                            <i class="fa-solid fa-seedling mr-2"></i>TEAM MEMBER
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <h2 class="col-span-12 text-5xl font-bold text-gray-800 mb-8 text-center">See Our Skilled Expert <span
+                    class="text-blue-900">Team</span></h2>
+            <div class="grid grid-cols-12 gap-6 px-6">
+                <div class="col-span-12 md:col-span-3 text-center">
+                    <div class="flex flex-col items-center relative">
+                        <img src="./img/pic1.jpg" alt="Team 1" class="w-full h-[340px] object-cover rounded-lg mb-4">
+                        <div class="bg-white shadow-md bottom-[-10%] rounded-lg w-60 h-20 p-4 text-center absolute">
+                            <h3 class="text-xl font-semibold">Amber Robert</h3>
+                            <p class="profile-designation text-blue-900 text-sm">Founder</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-span-12 md:col-span-3 text-center">
+                    <div class="flex flex-col items-center relative">
+                        <img src="./img/pic2.jpg" alt="Team 1" class="w-full h-[340px] object-cover rounded-lg mb-4">
+                        <div class="bg-white shadow-md bottom-[-10%] rounded-lg w-60 h-20 p-4 text-center absolute">
+                            <h3 class="text-xl font-semibold">Linda Ava</h3>
+                            <p class="profile-designation text-blue-900 text-sm">CEO</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-span-12 md:col-span-3 text-center">
+                    <div class="flex flex-col items-center relative">
+                        <img src="./img/pic3.jpg" alt="Team 1" class="w-full h-[340px] object-cover rounded-lg mb-4">
+                        <div class="bg-white shadow-md bottom-[-10%] rounded-lg w-60 h-20 p-4 text-center absolute">
+                            <h3 class="text-xl font-semibold">Amelia Clara</h3>
+                            <p class="profile-designation text-blue-900 text-sm">Project Manager</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-span-12 md:col-span-3 text-center">
+                    <div class="flex flex-col items-center relative">
+                        <img src="./img/pic7.png" alt="Team 1" class="w-full h-[340px] object-cover rounded-lg mb-4">
+                        <div class="bg-white shadow-md bottom-[-10%] rounded-lg w-60 h-20 p-4 text-center absolute">
+                            <h3 class="text-xl font-semibold">Grayson Gabriel</h3>
+                            <p class="profile-designation text-blue-900 text-sm">UI/UX Designer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="pt-10 px-6 grid grid-cols-12 items-center h-[750px]">
+            <div class="col-span-12 md:col-span-6 mt-6 md:mt-0 md:ml-6">
+                <div class="ekit-wid-con">
+                    <div class="ekit-heading">
+                        <span class="ekit-heading-text font-extrabold uppercase">Choose US</span>
+                        <h2 class="ekit-heading-title text-blue-900 font-bold uppercase flex items-center ml-4">
+                            <i class="fa-solid fa-seedling mr-2"></i>WHY CHOOSE US
+                        </h2>
+                    </div>
+                </div>
+                <h2 class="text-5xl font-bold text-gray-800 mb-4">We Deal With The Aspects <br> Professional <span
+                        class="text-blue-900">IT Services</span></h2>
+                <p class="text-gray-500 mb-4 text-lg">Collaboratively envisioneer user friendly supply chains and cross
+                    unit imperative. Authoritativel fabricate competitive resource and holistic.</p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="flex flex-row items-center">
+                        <i class="fa-regular fa-circle-check text-blue-900 text-2xl"></i>
+                        <div class="flex flex-col ml-4">
+                            <h2 class="text-lg font-semibold">Big Data Analysis</h2>
+                        </div>
+                    </div>
+                    <div class="flex flex-row items-center">
+                        <i class="fa-regular fa-circle-check text-blue-900 text-2xl"></i>
+                        <div class="flex flex-col ml-4">
+                            <h2 class="text-lg font-semibold">High Quality Security</h2>
+                        </div>
+                    </div>
+                    <div class="flex flex-row items-center">
+                        <i class="fa-regular fa-circle-check text-blue-900 text-2xl"></i>
+                        <div class="flex flex-col ml-4">
+                            <h2 class="text-lg font-semibold">24/7 Online Support</h2>
+                        </div>
+                    </div>
+                    <div class="flex flex-row items-center">
+                        <i class="fa-regular fa-circle-check text-blue-900 text-2xl"></i>
+                        <div class="flex flex-col ml-4">
+                            <h2 class="text-lg font-semibold">24/7 Support Team</h2>
+                        </div>
+                    </div>
+                    <div class="flex flex-row items-center">
+                        <i class="fa-regular fa-circle-check text-blue-900 text-2xl"></i>
+                        <div class="flex flex-col ml-4">
+                            <h2 class="text-lg font-semibold">Business Improvement</h2>
+                        </div>
+                    </div>
+                    <div class="flex flex-row items-center">
+                        <i class="fa-regular fa-circle-check text-blue-900 text-2xl"></i>
+                        <div class="flex flex-col ml-4">
+                            <h2 class="text-lg font-semibold">Easy Solutions</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-span-12 md:col-span-6 e-con-inner relative flex items-center justify-center">
+                <img src="./img/bg-ab1.png" alt="" class="w-[550px] h-[530px] rounded-full">
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="bg-gray-900 text-white py-16 px-6 mb-60 bg-cover h-[450px]"
+            style="background-image: url(./img/background.jpg);">
+            <div class="col-span-12 flex align-items-center justify-center mb-2">
+                <div class="ekit-wid-con">
+                    <div class="ekit-heading">
+                        <span class="ekit-heading-text font-extrabold uppercase">
+                            TESTIMONIALS
+                        </span>
+                        <h2 class="ekit-heading-title text-blue-900 font-bold uppercase flex items-center ml-4">
+                            <i class="fa-solid fa-seedling mr-2"></i>CUSTOMER FEEDBACK
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <h2 class="col-span-12 text-4xl font-bold text-center text-white mb-8">What Happy Clients Says <br> <span
+                    class="text-blue-900">About Us?</span></h2>
+            <div class="grid grid-cols-12 gap-6 px-6">
+                <div class="col-span-12 md:col-span-4 bg-white p-6 shadow-md rounded-lg">
+                    <img src="./img/pic4.jpg" alt="" class="w-[120px] h-[120px] rounded-full mx-auto mb-4">
+                    <p class="text-gray-400 mb-4 text-lg">Objectively visualize error-free technology for B2B
+                        alignment. Monotonectally harness an expanded array of models via effective collaboration.
+                        Globally synergize resource sucking value via cutting-edge.</p>
+                    <div class="flex flex-col">
+                        <strong class="text-xl text-black font-bold mb-1">Jackline Techie</strong>
+                        <span class="text-sm text-gray-400">CEO at Kormola</span>
+                    </div>
+                </div>
+                <div class="col-span-12 md:col-span-4 bg-white p-6 shadow-md rounded-lg">
+                    <img src="./img/pic5.jpg" alt="" class="w-[120px] h-[120px] rounded-full mx-auto mb-4">
+                    <p class="text-gray-400 mb-4 text-lg">Objectively visualize error-free technology for B2B alignment.
+                        Monotonectally harness an expanded array of models via effective collaboration. Globally
+                        synergize resource sucking value via cutting-edge.</p>
+                    <div class="flex flex-col">
+                        <strong class="text-xl text-black font-bold">Md Sumon Mia</strong>
+                        <span class="text-sm text-gray-400">CEO at Rimasu</span>
+                    </div>
+                </div>
+                <div class="col-span-12 md:col-span-4 bg-white p-6 shadow-md rounded-lg">
+                    <img src="./img/pic6.jpg" alt="" class="w-[120px] h-[120px] rounded-full mx-auto mb-4">
+                    <p class="text-gray-400 mb-4 text-lg">Objectively visualize error-free technology for B2B alignment.
+                        Monotonectally harness an expanded array of models via effective collaboration. Globally
+                        synergize resource sucking value via cutting-edge.</p>
+                    <div class="flex flex-col">
+                        <strong class="text-xl text-black font-bold">Abraham Khalil</strong>
+                        <span class="text-sm text-gray-400">CEO at Antora</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Section -->
+        <!-- <section class="bg-white col-span-12 p-6">
+            <h2 class="text-3xl font-bold text-center mb-4">Get Every Single Update Blog</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-gray-200 p-4 rounded-lg">
+                    <img src="./img/blog1.jpg" alt="Blog 1" class="w-full mb-2">
+                    <p>What’s the Holding Back the IT Solution Industry?</p>
+                    <p class="text-gray-500">By Thermology</p>
+                    <button class="text-purple-600">Read More</button>
+                </div>
+                <div class="bg-gray-200 p-4 rounded-lg">
+                    <img src="./img/blog2.jpg" alt="Blog 2" class="w-full mb-2">
+                    <p>Latest defined from Cicero’s first-century BC</p>
+                    <p class="text-gray-500">By Thermology</p>
+                    <button class="text-purple-600">Read More</button>
+                </div>
+                <div class="bg-gray-200 p-4 rounded-lg">
+                    <img src="./img/blog3.jpg" alt="Blog 3" class="w-full mb-2">
+                    <p>Unsatisfied comments may collect Power.</p>
+                    <p class="text-gray-500">By Thermology</p>
+                    <button class="text-purple-600">Read More</button>
+                </div>
+            </div>
+        </section> -->
+    </main>
+    <div data-include="/partials/footer.html"></div>
+</body>
+
+
+</html>
